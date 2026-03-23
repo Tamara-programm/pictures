@@ -66,7 +66,7 @@
             transform: translateY(-3px);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
         }
-        /* Стили для шапки */
+        /* Стили для шапки - КАК НА ГЛАВНОЙ */
         header {
             background: #4E5754;
             box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
@@ -206,13 +206,13 @@
             margin: 0;
         }
         
-        /* Стили для блоков услуг - СДВИГ ВЛЕВО НА 6px (ПК И МОБИЛЬНАЯ) */
+        /* Стили для блоков услуг - ТАКОЕ ЖЕ ПОЗИЦИОНИРОВАНИЕ КАК НА ГЛАВНОЙ */
         .services-container {
             padding: 0;
             text-align: center;
         }
         
-        /* ПЕРВАЯ СЕКЦИЯ УСЛУГ */
+        /* ПЕРВАЯ СЕКЦИЯ УСЛУГ - КАК НА ГЛАВНОЙ */
         .services-section {
             padding: 0;
             width: 94%;
@@ -221,7 +221,7 @@
             border-radius: 12px;
             overflow: hidden;
             position: relative;
-            left: calc(3% - 10px - 6px);
+            left: calc(3% - 10px);
         }
         
         .services-background {
@@ -290,7 +290,7 @@
             font-size: 0.9rem;
         }
         
-        /* ВТОРАЯ СЕКЦИЯ УСЛУГ */
+        /* ВТОРАЯ СЕКЦИЯ УСЛУГ - КАК НА ГЛАВНОЙ */
         .services-section-second {
             padding: 0;
             width: 94%;
@@ -299,7 +299,7 @@
             border-radius: 12px;
             overflow: hidden;
             position: relative;
-            left: calc(3% - 10px - 6px);
+            left: calc(3% - 10px);
         }
         
         .services-background-second {
@@ -504,7 +504,7 @@
             font-size: 0.85rem;
         }
         
-        /* Адаптивность для мобильных */
+        /* Адаптивность - ТАКАЯ ЖЕ КАК НА ГЛАВНОЙ */
         @media (max-width: 1200px) {
             header, .services-section, .services-section-second {
                 max-width: 1300px;
@@ -515,7 +515,7 @@
                 left: calc(2% - 10px);
             }
             .services-section, .services-section-second {
-                left: calc(2% - 10px - 6px);
+                left: calc(2% - 10px);
             }
             .logo-container {
                 margin-left: -20px;
@@ -543,7 +543,7 @@
             }
             .services-section, .services-section-second {
                 width: 96%;
-                left: calc(2% - 10px - 6px);
+                left: calc(2% - 10px);
             }
             .services-content, .services-content-second {
                 padding: 25px 30px;
@@ -574,6 +574,7 @@
         }
         
         @media (max-width: 768px) {
+            /* Шапка как на главной */
             header {
                 width: calc(96% - 20px);
                 top: 15px;
@@ -634,10 +635,10 @@
                 position: relative;
                 right: -2px;
             }
-            /* Мобильная версия - сдвиг баннеров влево на 6px */
+            /* Баннеры услуг - такое же позиционирование как на главной */
             .services-section, .services-section-second {
                 width: calc(96% - 20px);
-                left: calc(2% + 10px - 6px);
+                left: calc(2% + 10px);
                 margin-top: 30px;
             }
             .services-background, .services-background-second {
@@ -732,10 +733,10 @@
                 position: relative;
                 right: -2px;
             }
-            /* Очень маленькие экраны - сдвиг баннеров влево на 6px */
+            /* Баннеры услуг - такое же позиционирование как на главной */
             .services-section, .services-section-second {
                 width: calc(94% - 20px);
-                left: calc(3% + 10px - 6px);
+                left: calc(3% + 10px);
                 margin-top: 20px;
             }
             .services-background, .services-background-second {
